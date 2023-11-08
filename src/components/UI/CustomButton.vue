@@ -1,9 +1,11 @@
 <template lang="">
   <button class="btn" type="button"><slot></slot></button>
 </template>
+
 <script>
 export default { name: 'CustomButton' };
 </script>
+
 <style scoped>
 .btn {
   padding: 10px 15px;
